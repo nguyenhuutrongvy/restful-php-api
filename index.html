@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thi trắc nghiệm A1</title>
+    <style type="text/css">
+      .hidden-answer {
+        display: none;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="question" id="question">
+      <h2 id="title"></h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" class="answer" id="cau_a" />
+          <label for="cau_a" id="answer_a" for="cau_a"></label>
+        </li>
+        <li>
+          <input type="radio" name="answer" class="answer" id="cau_b" />
+          <label for="cau_b" id="answer_b" for="cau_b"></label>
+        </li>
+        <li id="groupC">
+          <input type="radio" name="answer" class="answer" id="cau_c" />
+          <label for="cau_c" id="answer_c" for="cau_c"></label>
+        </li>
+        <li id="groupD">
+          <input type="radio" name="answer" class="answer" id="cau_d" />
+          <label for="cau_d" id="answer_d" for="cau_d"></label>
+        </li>
+        <input type="hidden" id="correctAnswer">
+        <input type="hidden" id="questionAmount">
+      </ul>
+      <button id="submit" type="submit">Câu kế tiếp</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
