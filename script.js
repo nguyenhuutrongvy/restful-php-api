@@ -90,8 +90,8 @@ submitBtn.addEventListener("click", () => {
   } else {
     const questionAmount = document.getElementById("questionAmount").value;
     quiz.innerHTML = `
-    <h2>Bạn đã đúng ${mark}/${questionAmount} câu hỏi.</h2>
-    <button onclick="location.reload()">Làm lại</button>
+    <h2 class="mb-4">Bạn đã đúng ${mark}/${questionAmount} câu hỏi.</h2>
+    <button class="btn btn-success" onclick="location.reload()">Làm lại</button>
     `;
   }
 });
